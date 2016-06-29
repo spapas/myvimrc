@@ -1,9 +1,9 @@
 # myvimrc
 
 - Download vim from http://www.vim.org/ and install it to default location (C:\Program Files (x86)\Vim)
-- Copy _vimrc to c:\users\user
+- Copy _vimrc to c:\users\yourusername\_vimrc
 - Add v.bat to path to be able to edit files in vim through `v edit_file.txt` 
-- Add the following to autohotkey script to use ctrl+alt+v to edit current file (from explorer) with vim:
+- Add the following to autohotkey script to use ctrl+alt+v to edit current selected file (from explorer) with vim:
 
 ```
 Explorer_GetSelection(hwnd="") {
